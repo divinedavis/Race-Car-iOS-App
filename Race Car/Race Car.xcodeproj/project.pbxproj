@@ -14,6 +14,7 @@
 		16DD4E331BB0B88100389C07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16DD4E311BB0B88100389C07 /* LaunchScreen.storyboard */; };
 		16DD4E3E1BB0B88100389C07 /* Race_CarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DD4E3D1BB0B88100389C07 /* Race_CarTests.swift */; };
 		16DD4E491BB0B88100389C07 /* Race_CarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DD4E481BB0B88100389C07 /* Race_CarUITests.swift */; };
+		16DD4E571BB0BC2800389C07 /* RaceCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DD4E561BB0BC2800389C07 /* RaceCar.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		16DD4E441BB0B88100389C07 /* Race CarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Race CarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16DD4E481BB0B88100389C07 /* Race_CarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Race_CarUITests.swift; sourceTree = "<group>"; };
 		16DD4E4A1BB0B88100389C07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16DD4E561BB0BC2800389C07 /* RaceCar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaceCar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				16DD4E281BB0B88100389C07 /* AppDelegate.swift */,
 				16DD4E2A1BB0B88100389C07 /* ViewController.swift */,
 				16DD4E2C1BB0B88100389C07 /* Main.storyboard */,
+				16DD4E561BB0BC2800389C07 /* RaceCar.swift */,
 				16DD4E2F1BB0B88100389C07 /* Assets.xcassets */,
 				16DD4E311BB0B88100389C07 /* LaunchScreen.storyboard */,
 				16DD4E341BB0B88100389C07 /* Info.plist */,
@@ -256,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				16DD4E2B1BB0B88100389C07 /* ViewController.swift in Sources */,
+				16DD4E571BB0BC2800389C07 /* RaceCar.swift in Sources */,
 				16DD4E291BB0B88100389C07 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
